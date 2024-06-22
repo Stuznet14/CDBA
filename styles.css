@@ -1,0 +1,22 @@
+/* Global Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: hidden; /* Prevent veritical scrolling */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container Styles */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #aea8ba, #938e9f, #7a7485, #615b6c, #494454);
+    padding: 10px 8%;
+    color: white;
+}
